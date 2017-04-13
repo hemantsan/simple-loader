@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Simple Loader</title>
+   <link rel="stylesheet" href="css/loader.css">
+</head>
+<body>
+   <div class="simple-loader">
+      <div class="simple-loader-box">
+         <img src="image/simple-loader.gif" alt="simple loader image" class="simple-loader-image" />
+         <span class="simple-loader-text">Loading</span>
+      </div>
+   </div>
+   <button id="btnshow"> Show </button>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+   $('#btnshow').click(function(event) {
+      $('.simple-loader').fadeIn('fast');
+   });
+</script>
+</html>

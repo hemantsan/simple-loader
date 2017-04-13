@@ -1,0 +1,45 @@
+      body{
+         background: #f9f9f9;
+      }
+      #btnShow{
+         z-index: 9999;
+      }
+
+      /* Take below css  */
+      
+      .simple-loader{
+         position: fixed;
+         left: 0;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         margin: auto;
+         background: rgba(255, 255, 255, 0.38);
+         display: none;
+      }
+      .simple-loader .simple-loader-box{
+         width: 120px;
+         height: 20px;
+         border-radius: 5px;
+         padding: 10px 15px;
+         background: #fff;
+         border: 2px solid #2dbe60;
+         display: block;
+         margin: 0 auto;
+         margin-top: 10px;
+         position: relative;
+         text-align: center;
+         box-shadow: 0px 4px 26px 1px #bdbdbd;
+      }
+      .simple-loader .simple-loader-text {
+         font-size: 14px;
+         font-weight: 500;
+         margin-left: 25px;
+         display: inline-block;
+         color: #2dbe60;
+      }
+      .simple-loader .simple-loader-image {
+         position: absolute;
+         left: 20px;
+         top: 4px;
+      }
